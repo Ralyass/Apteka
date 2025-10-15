@@ -1,0 +1,91 @@
+.LogInPanel {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    width: 50%;
+    height: 500px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.text {
+    color: #297189;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 200px;
+    height: 6px;
+    background: #98ca6e;
+    border-radius: 9px;
+}
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.2);
+    border-radius: 6px;
+
+}
+
+    .input input {
+        height: 50px;
+        width: 400px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #c0dedc;
+        font-size: 19px;
+    }
+
+input::placeholder {
+    color: #c0dedc;
+    font-size: 19px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+    .button button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 59px;
+        color: #c0dedc;
+        background: #297189;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
