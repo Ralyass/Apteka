@@ -1,1 +1,24 @@
-{"Version":1,"Hash":"7gjrkJCZAAUQzm4fAoK5ZwXQkeJA1oTT7XpL4Ftymuw=","Source":"AptekaTest.Server","BasePath":"_content/AptekaTest.Server","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[{"Identity":"C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\aptekatest.client\\aptekatest.client.esproj","Version":2,"Source":"aptekatest.client","GetPublishAssetsTargets":"GetCurrentProjectPublishStaticWebAssetItems","AdditionalPublishProperties":"Configuration=Debug;Platform=AnyCPU","AdditionalPublishPropertiesToRemove":"WebPublishProfileFile;TargetFramework","GetBuildAssetsTargets":"GetCurrentProjectBuildStaticWebAssetItems","AdditionalBuildProperties":"Configuration=Debug;Platform=AnyCPU","AdditionalBuildPropertiesToRemove":"WebPublishProfileFile;TargetFramework"}],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "lDeHhv3BDKtg6WF0zYG7Ug48H9fK+ozHf9QycOpdNdU=",
+  "Source": "AptekaTest.Server",
+  "BasePath": "_content/AptekaTest.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\aptekatest.client.esproj",
+      "Version": 2,
+      "Source": "aptekatest.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
