@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using AptekaTest.Server;
 
 namespace AptekaTest.Server
 {
@@ -7,19 +9,32 @@ namespace AptekaTest.Server
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+
+            builder.Services.AddDbContext<MyDbContext>(options =>
+                options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=AptekaTestDb;Trusted_Connection=True;"));
+
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactDevServer", policy =>
+                {
+                    policy.WithOrigins("https://localhost:61109") // adres Twojego frontendu
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
+
 
             var app = builder.Build();
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -27,14 +42,10 @@ namespace AptekaTest.Server
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("AllowReactDevServer");
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.MapFallbackToFile("/index.html");
-
             app.Run();
         }
     }

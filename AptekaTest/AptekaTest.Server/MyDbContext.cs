@@ -1,8 +1,5 @@
 using AptekaTest.Server.Models;
-using Azure;
-using Microsoft.Azure.Documents;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 
 namespace AptekaTest.Server
 {
@@ -10,13 +7,18 @@ namespace AptekaTest.Server
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
-            public DbSet<Users> Users{get;set;}
         }
+
+        public DbSet<Users> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseLazyLoadingProxies();
+           
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Users>().ToTable("Users"); // upewniamy się, że tabela się mapuje
         }
     }
 }
