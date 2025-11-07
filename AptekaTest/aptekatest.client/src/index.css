@@ -2,7 +2,8 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(#98ca6e, #297189);
+    background: linear-gradient(#E3F2FD, #BBDEFB);
+/*    background-color: #E8F5E9; */
     font-family: 'Montserrat', 'Inter', Arial, sans-serif;
     overflow: hidden;
 }

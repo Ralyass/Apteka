@@ -1,8 +1,8 @@
 import { useState } from "react";
-import LogIn from "./LogIn";
-import AdminPanel from "./AdminPanel";
-import FarmaceutaPanel from "./FarmaceutaPanel";
-import KierownikPanel from "./KierownikPanel";
+import LogIn from "./pages/LogIn.jsx";
+import AdminPanel from "./pages/AdminPanel.jsx";
+import FarmaceutaPanel from "./pages/FarmaceutaPanel.jsx";
+import KierownikPanel from "./pages/KierownikPanel.jsx";
 
 function App() {
     const [user, setUser] = useState(null);
@@ -18,9 +18,9 @@ function App() {
     switch (user.username) {
         case "Admin":
             return <AdminPanel username={user.username} />;
-        case "farmaceuta1":
+        case "Employee":
             return <FarmaceutaPanel username={user.username} />;
-        case "kierownik1":
+        case "Menager":
             return <KierownikPanel username={user.username} />;
         default:
             return <p>Nieznany użytkownik</p>;

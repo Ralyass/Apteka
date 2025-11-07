@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./LogIn.css";
+import "../styles/LogIn.css";
 
 function LogIn({ onLogin }) {
     const [username, setUsername] = useState("");
@@ -15,8 +15,7 @@ function LogIn({ onLogin }) {
             });
 
             if (!response.ok) {
-                // jeśli backend zwraca błąd np. 404 lub 401
-                const text = await response.text(); // używamy text(), bo może nie być JSON
+                const text = await response.text(); 
                 console.error("Błąd logowania:", text);
                 setError("Błąd logowania: " + text);
                 return;
@@ -24,6 +23,7 @@ function LogIn({ onLogin }) {
 
             // jeśli status ok (200)
             const data = await response.json();
+            localStorage.setItem("user", data.username);
             console.log("Zalogowano:", data);
             onLogin(data);
 
