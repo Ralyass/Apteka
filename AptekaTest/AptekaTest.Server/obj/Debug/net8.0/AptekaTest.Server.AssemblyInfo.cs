@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c252097feb6d92e38b817645df3cdbcac0057498")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a59c986b82d98590d62c2539758eeef1bca3de")]
 [assembly: System.Reflection.AssemblyProductAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,15 +1,36 @@
+.app-container{
+    display:flex;
+    flex-direction:row;
+    height:100vh;
+}
+
+.content{
+    flex: 1;
+    padding:30px;
+    overflow-y:auto;
+}
+
 /*=======SIDEBAR=======*/
 .sidebar{
-    width:200px;
+    width:250px;
     background-color: #1e293b;
     color: white;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
 }
 
 .sidebar h3{
     font-size: 1.2rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #38bdf8;
 }
 
@@ -25,10 +46,13 @@
 .sidebar a{
     color:white;
     text-decoration:none;
+    margin: 8px 0;
+    font-weight: 500;
 }
 
 .sidebar a:hover{
     text-decoration: underline;
+    color: #38bdf8;
 }
 
 /*=======DASHBOARD=======*/
@@ -36,6 +60,7 @@
 .dashboard-container{
     padding:20px;
     color: #1e293b;
+    margin-right: 270px;
 }
 
 .dashboard-grid{

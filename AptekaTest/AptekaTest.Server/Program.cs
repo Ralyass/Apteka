@@ -1,5 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using AptekaTest.Server;
+using System.Diagnostics;
 
 namespace AptekaTest.Server
 {
@@ -11,21 +12,22 @@ namespace AptekaTest.Server
 
             builder.Services.AddControllers();
 
-
             builder.Services.AddDbContext<MyDbContext>(options =>
                 options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=AptekaTestDb;Trusted_Connection=True;"));
-
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // ✅ KONFIGURACJA CORS
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowReactDevServer", policy =>
+                options.AddPolicy("AllowReactApp", policy =>
                 {
-                    policy.WithOrigins("https://localhost:61109") // adres Twojego frontendu
-                          .AllowAnyHeader()
-                          .AllowAnyMethod();
+                    policy
+                        .WithOrigins("https://localhost:61109", "http://localhost:61109")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
                 });
             });
 
@@ -41,11 +43,15 @@ namespace AptekaTest.Server
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-            app.UseCors("AllowReactDevServer");
+           // app.UseHttpsRedirection();
+
+            // ✅ CORS MUSI BYĆ PRZED Authorization
+            app.UseCors("AllowReactApp");
             app.UseAuthorization();
+
             app.MapControllers();
             app.MapFallbackToFile("/index.html");
+
             app.Run();
         }
     }

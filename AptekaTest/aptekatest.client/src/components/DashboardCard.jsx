@@ -5,8 +5,9 @@ function DashboardCard({ title, value, icon }) {
 
     return (
         <div className="dashboard-card">
-            <div className="icon">{icon}</div>
+            <div className="icon"></div>
             <div>
+                <img src={icon} alt="icon" />
                 <h4>{title}</h4>
                 <p>{value}</p>
             </div>

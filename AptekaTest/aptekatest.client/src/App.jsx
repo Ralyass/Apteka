@@ -16,11 +16,11 @@ function App() {
     }
 
     switch (user.username) {
-        case "Admin":
+        case "admin":
             return <AdminPanel username={user.username} />;
-        case "Employee":
+        case "farmaceuta":
             return <FarmaceutaPanel username={user.username} />;
-        case "Menager":
+        case "kierownik":
             return <KierownikPanel username={user.username} />;
         default:
             return <p>Nieznany użytkownik</p>;

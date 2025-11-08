@@ -1,4 +1,5 @@
 using AptekaTest.Server.Models;
+using Microsoft.Azure.Documents;
 using Microsoft.EntityFrameworkCore;
 
 namespace AptekaTest.Server
@@ -10,6 +11,12 @@ namespace AptekaTest.Server
         }
 
         public DbSet<Users> Users { get; set; }
+        public DbSet<Medicine> Medicines { get; set; }
+        public DbSet<Orders> Orders { get; set; }
+
+        public DbSet<Sale> Sales { get; set; }
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,6 +26,9 @@ namespace AptekaTest.Server
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>().ToTable("Users"); // upewniamy się, że tabela się mapuje
+            modelBuilder.Entity<Medicine>().ToTable("Medicines");
+            modelBuilder.Entity<Orders>().ToTable("Orders");
+            modelBuilder.Entity<Sale>().ToTable("Sales");
         }
     }
 }
