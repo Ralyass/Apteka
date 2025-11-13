@@ -7,12 +7,13 @@ function AdminPanel() {
     return (
         <>
             <Navbar user="Admin" />
+            <_Sidebar role="admin" />
             <div className="app-container">
                 <div className="content">
                     <Dashboard />
                 </div>
-                <_Sidebar role="admin" />
             </div>
+          
         </>
     );
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Button from 'react-bootstrap/Button';
+import { Offcanvas, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function _Sidebar() {
@@ -11,7 +10,7 @@ function _Sidebar() {
 
     return (
         <>
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="primary" onClick={handleShow} style={{ margin: '10px' }}>
                 ☰ Menu
             </Button>
 

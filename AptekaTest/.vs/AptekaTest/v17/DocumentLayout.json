@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\components\\_sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\components\\_sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\pages\\adminpanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\pages\\adminpanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\styles\\adminpanel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\styles\\adminpanel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\pages\\adminpanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\pages\\adminpanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\components\\_sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\components\\_sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\styles\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\styles\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\styles\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\styles\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\styles\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\styles\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\styles\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|solutionrelative:aptekatest.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44D653C1-54A6-88D8-14B6-C83FA2C855F9}|aptekatest.client\\aptekatest.client.esproj|c:\\users\\ewkat\\desktop\\inzynierka\\apteka\\aptekatest\\aptekatest.client\\src\\components\\alerts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -125,25 +129,8 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e9d26e9f-2060-4aa2-bec3-2a9e07c66900}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\index.css",
-              "RelativeDocumentMoniker": "aptekatest.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\index.css",
-              "RelativeToolTip": "aptekatest.client\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-13T14:47:35.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "NotFound.jsx",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\NotFound.jsx",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\pages\\NotFound.jsx",
@@ -152,46 +139,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-11-13T14:39:43.527Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "aptekatest.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\main.jsx",
-              "RelativeToolTip": "aptekatest.client\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T14:10:53.054Z",
+              "DocumentIndex": 4,
+              "Title": "Sidebar.css",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\Sidebar.css",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\styles\\Sidebar.css",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\Sidebar.css",
+              "RelativeToolTip": "aptekatest.client\\src\\styles\\Sidebar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-13T19:16:29.48Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Sidebar.jsx",
-              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\_Sidebar.jsx",
-              "RelativeDocumentMoniker": "aptekatest.client\\src\\components\\_Sidebar.jsx",
-              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\_Sidebar.jsx",
-              "RelativeToolTip": "aptekatest.client\\src\\components\\_Sidebar.jsx",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T12:25:12.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminPanel.jsx",
-              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\AdminPanel.jsx",
-              "RelativeDocumentMoniker": "aptekatest.client\\src\\pages\\AdminPanel.jsx",
-              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\AdminPanel.jsx",
-              "RelativeToolTip": "aptekatest.client\\src\\pages\\AdminPanel.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T07:51:10.051Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e9d26e9f-2060-4aa2-bec3-2a9e07c66900}"
             },
             {
               "$type": "Document",
@@ -208,7 +174,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "AdminPanel.jsx",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\AdminPanel.jsx",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\pages\\AdminPanel.jsx",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\AdminPanel.jsx",
+              "RelativeToolTip": "aptekatest.client\\src\\pages\\AdminPanel.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-13T07:51:10.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\App.jsx",
+              "RelativeToolTip": "aptekatest.client\\src\\App.jsx",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-13T08:14:38.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Sidebar.jsx",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\_Sidebar.jsx",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\components\\_Sidebar.jsx",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\_Sidebar.jsx",
+              "RelativeToolTip": "aptekatest.client\\src\\components\\_Sidebar.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-13T12:25:12.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Navbar.css",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\Navbar.css",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\styles\\Navbar.css",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\Navbar.css",
+              "RelativeToolTip": "aptekatest.client\\src\\styles\\Navbar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-13T19:16:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "aptekatest.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\main.jsx",
+              "RelativeToolTip": "aptekatest.client\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-13T14:10:53.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "globals.css",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\globals.css",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\styles\\globals.css",
@@ -216,12 +246,11 @@
               "RelativeToolTip": "aptekatest.client\\src\\styles\\globals.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-13T12:31:00.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:31:00.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LogIn.css",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\styles\\LogIn.css",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\styles\\LogIn.css",
@@ -229,25 +258,11 @@
               "RelativeToolTip": "aptekatest.client\\src\\styles\\LogIn.css",
               "ViewState": "AgIAAEUAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-13T13:59:52.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T13:59:52.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "aptekatest.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\App.jsx",
-              "RelativeToolTip": "aptekatest.client\\src\\App.jsx",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T08:14:38.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LogIn.jsx",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\LogIn.jsx",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\pages\\LogIn.jsx",
@@ -255,12 +270,11 @@
               "RelativeToolTip": "aptekatest.client\\src\\pages\\LogIn.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T08:14:21.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T08:14:21.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Alerts.jsx",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\Alerts.jsx",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\components\\Alerts.jsx",
@@ -268,12 +282,11 @@
               "RelativeToolTip": "aptekatest.client\\src\\components\\Alerts.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T09:18:23.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T09:18:23.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\package.json",
               "RelativeDocumentMoniker": "aptekatest.client\\package.json",
@@ -281,12 +294,11 @@
               "RelativeToolTip": "aptekatest.client\\package.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-13T13:01:30.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T13:01:30.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Dashboard.jsx",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\pages\\Dashboard.jsx",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\pages\\Dashboard.jsx",
@@ -294,12 +306,11 @@
               "RelativeToolTip": "aptekatest.client\\src\\pages\\Dashboard.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-13T07:51:26.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T07:51:26.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Services\\AuthService.cs",
@@ -307,12 +318,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T12:14:07.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:14:07.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Controllers\\AuthController.cs",
@@ -320,12 +330,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAUwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T12:09:31.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:09:31.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\LoginRequest.cs",
@@ -333,12 +342,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:46:38.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:46:38.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\Users.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\Users.cs",
@@ -346,12 +354,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:47:16.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:47:16.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\MyDbContext.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\MyDbContext.cs",
@@ -359,12 +366,11 @@
               "RelativeToolTip": "AptekaTest.Server\\MyDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T12:13:16.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T12:13:16.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Program.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Program.cs",
@@ -372,12 +378,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Program.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:15:39.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T09:15:39.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\OrderItem.cs",
@@ -385,12 +390,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:46:55.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:46:55.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Controllers\\DashboardController.cs",
@@ -398,12 +402,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:14:26.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T09:14:26.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\Orders.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\Orders.cs",
@@ -411,12 +414,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\Orders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:46:59.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:46:59.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\Sale.cs",
@@ -424,12 +426,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\Sale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:47:09.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:47:09.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "AlertService.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Services\\AlertService.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Services\\AlertService.cs",
@@ -437,12 +438,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Services\\AlertService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:45:25.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T08:45:25.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Medicine.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\Medicine.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\Medicine.cs",
@@ -450,12 +450,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\Medicine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:48:12.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T08:48:12.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20251113100752_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Migrations\\20251113100752_InitialCreate.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Migrations\\20251113100752_InitialCreate.cs",
@@ -467,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Alert.cs",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\Models\\Alert.cs",
               "RelativeDocumentMoniker": "AptekaTest.Server\\Models\\Alert.cs",
@@ -475,12 +474,11 @@
               "RelativeToolTip": "AptekaTest.Server\\Models\\Alert.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:44:02.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T08:44:02.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DashboardCard.jsx",
               "DocumentMoniker": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\aptekatest.client\\src\\components\\DashboardCard.jsx",
               "RelativeDocumentMoniker": "aptekatest.client\\src\\components\\DashboardCard.jsx",

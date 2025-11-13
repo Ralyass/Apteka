@@ -11,6 +11,7 @@
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.3.8</PackageJsonDependenciesBootstrap>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.1.1</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactBootstrap Condition="$(PackageJsonDependenciesReactBootstrap) == ''">^2.10.10</PackageJsonDependenciesReactBootstrap>
     <PackageJsonDependenciesReactBootstrapSidebar Condition="$(PackageJsonDependenciesReactBootstrapSidebar) == ''">^0.0.1</PackageJsonDependenciesReactBootstrapSidebar>
     <PackageJsonDependenciesReactBurgerMenu Condition="$(PackageJsonDependenciesReactBurgerMenu) == ''">^3.1.0</PackageJsonDependenciesReactBurgerMenu>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.1.1</PackageJsonDependenciesReactDom>
