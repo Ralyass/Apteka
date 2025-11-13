@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/LogIn.css";
+import Cookies from 'js-cookie';
 
 function LogIn({ onLogin }) {
     const [username, setUsername] = useState("");
@@ -23,7 +24,7 @@ function LogIn({ onLogin }) {
 
             // jeśli status ok (200)
             const data = await response.json();
-            localStorage.setItem("user", data.username);
+            Cookies.set('loggedUser', data.username, { expires: 30 });
             console.log("Zalogowano:", data);
             onLogin(data);
 

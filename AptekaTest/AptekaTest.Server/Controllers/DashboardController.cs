@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AptekaTest.Server.Models;
 using System.Formats.Asn1;
+using AptekaTest.Server.Services;
 
 namespace AptekaTest.Server.Controllers
 {
@@ -10,11 +11,14 @@ namespace AptekaTest.Server.Controllers
     public class DashboardController : Controller
     {
         private readonly MyDbContext _dbContext;
+        private readonly AlertService _alertService;
 
-        public DashboardController(MyDbContext dbContext)
+        public DashboardController(MyDbContext dbContext, AlertService alertService)
         {
             _dbContext = dbContext;
+            _alertService = alertService;
         }
+
 
         [HttpGet("stats")]
 
@@ -35,6 +39,13 @@ namespace AptekaTest.Server.Controllers
                 totalOrders,
                 totalSales
             });
+        }
+
+        [HttpGet("alerts")]
+        public async Task<IActionResult> GetAlerts()
+        {
+            var alerts = await _alertService.GetAlertsAsync();
+            return Ok(alerts);
         }
     }
 }

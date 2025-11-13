@@ -55,7 +55,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.21": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.22": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -3456,10 +3456,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.21": {
-      "sha512": "wM7xZ0sWE4ASH5w7rw6zqRmfoeEA/mkgZw+KQUfDG/x48r9+8T5vTDjtKWPeBYeLczUR0wjKsU6h3pL6cdOCxA==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.22": {
+      "sha512": "CFnPIbLHsuLKKsJNC1wMFaeKvxRfDS8fnVzDxLdCI6kMbHB91tCLOm8+rPpAGV99VJSFNhduLEWx22Zjw30wag==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.21",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.22",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3467,7 +3467,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.21.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.22.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -10719,23 +10719,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ewelina\\.nuget\\packages\\": {},
+    "C:\\Users\\ewkat\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
+      "projectUniqueName": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
       "projectName": "AptekaTest.Server",
-      "projectPath": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
-      "packagesPath": "C:\\Users\\Ewelina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\obj\\",
+      "projectPath": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
+      "packagesPath": "C:\\Users\\ewkat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ewelina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ewkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10744,7 +10744,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10763,7 +10762,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -10819,7 +10818,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -31,6 +31,16 @@ namespace AptekaTest.Server.Controllers
                 return Unauthorized(new { error = "Nieprawidłowa nazwa użytkownika lub hasło" });
             }
 
+
+            // ustaw ciasteczko z nazwą użytkownika (lub tokenem, jeśli masz)
+            Response.Cookies.Append("loggedUser", user.Username, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = false, // na localhost może być false, w produkcji true
+                Expires = DateTimeOffset.UtcNow.AddDays(30),
+                SameSite = SameSiteMode.Strict
+            });
+
             // Zwracamy JSON z wiadomością i nazwą użytkownika
             return Ok(new
             {
@@ -38,5 +48,13 @@ namespace AptekaTest.Server.Controllers
                 username = user.Username
             });
         }
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            Response.Cookies.Delete("loggedUser");
+            return Ok(new { message = "Wylogowano pomyślnie!" });
+        }
+
     }
 }

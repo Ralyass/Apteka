@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using AptekaTest.Server;
 using System.Diagnostics;
+using AptekaTest.Server.Services;
 
 namespace AptekaTest.Server
 {
@@ -11,12 +12,15 @@ namespace AptekaTest.Server
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
+            
+
 
             builder.Services.AddDbContext<MyDbContext>(options =>
                 options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=AptekaTestDb;Trusted_Connection=True;"));
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+           
 
             // ✅ KONFIGURACJA CORS
             builder.Services.AddCors(options =>
@@ -31,7 +35,7 @@ namespace AptekaTest.Server
                 });
             });
 
-
+            builder.Services.AddScoped<AlertService>();
             var app = builder.Build();
 
             app.UseDefaultFiles();

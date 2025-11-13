@@ -9,7 +9,7 @@
       "AptekaTest.Server/1.0.0": {
         "dependencies": {
           "Azure.Core": "1.49.0",
-          "Microsoft.AspNetCore.SpaProxy": "8.0.21",
+          "Microsoft.AspNetCore.SpaProxy": "8.0.22",
           "Microsoft.Azure.DocumentDB.Core": "2.22.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
@@ -58,11 +58,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.21": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.22": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {
-            "assemblyVersion": "8.0.21.0",
-            "fileVersion": "8.0.2125.47515"
+            "assemblyVersion": "8.0.22.0",
+            "fileVersion": "8.0.2225.52808"
           }
         }
       },
@@ -2049,12 +2049,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.21": {
+    "Microsoft.AspNetCore.SpaProxy/8.0.22": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wM7xZ0sWE4ASH5w7rw6zqRmfoeEA/mkgZw+KQUfDG/x48r9+8T5vTDjtKWPeBYeLczUR0wjKsU6h3pL6cdOCxA==",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.21",
-      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.21.nupkg.sha512"
+      "sha512": "sha512-CFnPIbLHsuLKKsJNC1wMFaeKvxRfDS8fnVzDxLdCI6kMbHB91tCLOm8+rPpAGV99VJSFNhduLEWx22Zjw30wag==",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.22",
+      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.22.nupkg.sha512"
     },
     "Microsoft.Azure.DocumentDB.Core/2.22.0": {
       "type": "package",

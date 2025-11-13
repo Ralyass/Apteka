@@ -1,0 +1,44 @@
+/* src/styles/AdminPanel.css */
+
+/* General container for the page */
+.app-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e9f4fb 0%, #badcff 100%);
+}
+
+/* Main content area */
+.content {
+    flex: 1 0 0;
+    padding: 40px 4vw 60px 4vw;
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    /* Make sure Dashboard fills the area nicely inside .content */
+    .content > * {
+        width: 100%;
+    }
+
+/* Optional: Adjust Sidebar to not overlap content if it's absolutely positioned */
+@media (max-width: 900px) {
+    .content {
+        padding: 25px 1vw 35px 1vw;
+    }
+}
+
+
+.dashboard-card {
+    background: #f8fafc;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(56, 116, 171, 0.09);
+    padding: 28px 18px 20px;
+    margin-bottom: 22px;
+    max-width: 380px;
+    min-width: 200px;
+} 

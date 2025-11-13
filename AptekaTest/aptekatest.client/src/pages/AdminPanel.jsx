@@ -1,7 +1,9 @@
 import Dashboard from "./Dashboard.jsx";
 import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar"
-function AdminPanel({ username }) {
+import _Sidebar from "../components/_Sidebar.jsx"
+import '../styles/AdminPanel.css';
+
+function AdminPanel() {
     return (
         <>
             <Navbar user="Admin" />
@@ -9,7 +11,7 @@ function AdminPanel({ username }) {
                 <div className="content">
                     <Dashboard />
                 </div>
-            <Sidebar role="Admin"/>
+                <_Sidebar role="admin" />
             </div>
         </>
     );

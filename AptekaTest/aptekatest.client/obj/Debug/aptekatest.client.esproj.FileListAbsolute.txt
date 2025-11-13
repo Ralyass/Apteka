@@ -1,2 +1,1 @@
 C:\Users\Ewelina\Desktop\Inzynierka\AptekaTest\aptekatest.client\obj\Debug\aptekatest.client.esproj.CoreCompileInputs.cache
-C:\Users\ewkat\Desktop\inzynierka\Apteka\AptekaTest\aptekatest.client\obj\Debug\aptekatest.client.esproj.CoreCompileInputs.cache
