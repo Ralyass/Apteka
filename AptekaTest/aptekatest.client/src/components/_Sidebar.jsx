@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Offcanvas, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AdminUsers from './AdminUsers';
+import { Link } from 'react-router-dom';
 
 function _Sidebar() {
     const [show, setShow] = useState(false);
@@ -20,7 +22,7 @@ function _Sidebar() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <ul className="list-unstyled">
-                        <li><a href="/users" className="nav-link">Użytkownicy</a></li>
+                        <li><Link to="/users" className="nav-link">Użytkownicy</Link></li>
                         <li><a href="/medicines" className="nav-link">Leki</a></li>
                         <li><a href="/reports" className="nav-link">Raporty</a></li>
                     </ul>

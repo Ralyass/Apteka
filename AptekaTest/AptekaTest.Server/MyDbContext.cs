@@ -15,6 +15,7 @@ namespace AptekaTest.Server
         public DbSet<Orders> Orders { get; set; }
 
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<Alert> Alerts { get; set; }
 
 
 
