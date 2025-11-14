@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using AptekaTest.Server;
 using System.Diagnostics;
 using AptekaTest.Server.Services;
@@ -65,6 +65,9 @@ namespace AptekaTest.Server
             });
 
             builder.Services.AddScoped<AlertService>();
+            builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<MedicineService>();
+            builder.Services.AddScoped<OrderService>();
             var app = builder.Build();
 
             app.UseDefaultFiles();
@@ -76,9 +79,7 @@ namespace AptekaTest.Server
                 app.UseSwaggerUI();
             }
 
-           // app.UseHttpsRedirection();
 
-            // ✅ CORS MUSI BYĆ PRZED Authorization
             app.UseCors("AllowReactApp");
             app.UseAuthentication();
             app.UseAuthorization();

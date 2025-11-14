@@ -1,4 +1,4 @@
-namespace AptekaTest.Server.Models
+﻿namespace AptekaTest.Server.Models
 {
     public class Medicine
     {
@@ -7,6 +7,7 @@ namespace AptekaTest.Server.Models
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public DateTime ExpiryDate { get; set; }
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
     }
 }
