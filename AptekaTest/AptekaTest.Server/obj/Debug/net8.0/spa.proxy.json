@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:61109",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\..\\aptekatest.client",
+"WorkingDirectory": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\..\\aptekatest.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -1,18 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using AptekaTest.Server.Models;
 using AptekaTest.Server.Services;
+using Microsoft.AspNetCore.Authorization;
+using BCrypt.Net;
+using System.Collections.Generic;
 
 namespace AptekaTest.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     public class UsersController : ControllerBase
     {
         private readonly UserService _userService;
+        private readonly MyDbContext _context;
 
-        public UsersController(UserService userService)
+        public UsersController(UserService userService, MyDbContext context)
         {
             _userService = userService;
+            _context = context;
         }
 
         [HttpGet]
@@ -33,6 +39,16 @@ namespace AptekaTest.Server.Controllers
         [HttpPost]
         public ActionResult<Users> Post([FromBody] Users user)
         {
+            if (!string.IsNullOrEmpty(user.Password))
+            {
+                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+            }
+            else
+            {
+                // Nie pozwól na stworzenie użytkownika bez hasła
+                return BadRequest(new { error = "Hasło jest wymagane" });
+            }
+
             var createdUser = _userService.AddUser(user);
             return CreatedAtAction(nameof(Get), new { id = createdUser.ID }, createdUser);
         }
@@ -44,6 +60,8 @@ namespace AptekaTest.Server.Controllers
 
             var existingUser = _userService.GetUserById(id);
             if (existingUser == null) return NotFound();
+
+            user.Password = existingUser.Password; // Zachowaj stare hasło
 
             _userService.UpdateUser(user);
             return NoContent();

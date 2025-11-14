@@ -367,3 +367,4 @@ C:\Users\Ewelina\Desktop\Inzynierka\AptekaTest\AptekaTest.Server\bin\Debug\net8.
 C:\Users\Ewelina\Desktop\Inzynierka\AptekaTest\AptekaTest.Server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Ewelina\Desktop\Inzynierka\AptekaTest\AptekaTest.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Ewelina\Desktop\Inzynierka\AptekaTest\AptekaTest.Server\obj\Debug\net8.0\AptekaTest.Server.sourcelink.json
+C:\Users\ewkat\Desktop\inzynierka\Apteka\AptekaTest\AptekaTest.Server\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("123c9c64-d653-47b5-8ca3-29ac84d016eb")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d72b818c30d98021525894ddf77ef73822a17f1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9a9e44bcd1b3aa53e7c5b0cba226fc096a7c1ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AptekaTest.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

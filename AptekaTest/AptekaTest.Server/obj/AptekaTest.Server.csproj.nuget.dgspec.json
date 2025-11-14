@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj": {}
+    "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj": {
+    "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
+        "projectUniqueName": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
         "projectName": "AptekaTest.Server",
-        "projectPath": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
-        "packagesPath": "C:\\Users\\Ewelina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ewelina\\Desktop\\Inzynierka\\AptekaTest\\AptekaTest.Server\\obj\\",
+        "projectPath": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\AptekaTest.Server.csproj",
+        "packagesPath": "C:\\Users\\ewkat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ewkat\\Desktop\\inzynierka\\Apteka\\AptekaTest\\AptekaTest.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ewelina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ewkat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -54,6 +53,10 @@
             "Azure.Core": {
               "target": "Package",
               "version": "[1.49.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
@@ -101,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

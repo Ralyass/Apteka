@@ -1,22 +1,43 @@
-﻿import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/AdminUsers.css';
+import UserForm from './UserForm';
 
 function AdminUsers() {
     const [users, setUsers] = useState([]);
     const [showForm, setShowForm] = useState(false);
     const [editUser, setEditUser] = useState(null);
+    const [error, setError] = useState(null);]
 
     // Pobierz listę użytkowników po załadowaniu komponentu
-    useEffect(() => {
-        fetch('https://localhost:7130/api/users')
-            .then(res => res.json())
-            .then(data => setUsers(data));
-    }, []);
+    const fetchUsers = async () => {
+        setError(null);
+        try {
+            const res = await fetch('https://localhost:7130/api/users', {
+                credentials: 'include',
+            });
+            if (!res.ok) {
+                throw new Error(`Nie udało się pobra użytkowników: ${res.status} ${res.statusText}`)
+            }
 
+            const data = await res.json();
+            setUsers(data);
+        } catch (err) {
+            setError(err.message);
+        }
+    };
     // Obsługa usuwania użytkownika
     const handleDelete = async (id) => {
-        await fetch(`https://localhost:7130/api/users/${id}`, { method: 'DELETE' });
-        setUsers(users.filter(user => user.id !== id));
+        if (window.confirm('Czy na pewno chcesz usunąć tego użytkownika?')) {
+            try {
+                await fetch(`https://localhost:7130/api/users/${id}`, {
+                    method: 'DELETE',
+                    credentials: 'include',
+                });
+                setUsers(users.filter(user => user.id !== id));
+            } catch (err) {
+                setError(`Nie udało się usunąć użytkownika: ${err.message}`);
+            }
+        }
     };
 
     // Obsługa otwierania formularza do dodawania/edycji
@@ -31,23 +52,20 @@ function AdminUsers() {
     };
 
     // Zamknięcie formularza i odświeżenie listy
-    const closeFormReload = async () => {
+    const closeFormReload =  () => {
         setShowForm(false);
-        // można pobrać jeszcze raz użytkowników z serwera
-        const res = await fetch('https://localhost:7130/api/users');
-        const data = await res.json();
-        setUsers(data);
+        fetchUsers();
     };
 
     return (
         <div>
-            <h2>Użytkownicy</h2>
+            <h2>Zarządzanie Użytkownikami</h2>
             <button onClick={handleAdd}>Dodaj użytkownika</button>
             <table>
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Login</th>
-                        <th>Haslo</th>
                         <th>Rola</th>
                         <th>Akcje</th>
                     </tr>
@@ -55,6 +73,7 @@ function AdminUsers() {
                 <tbody>
                     {users.map(user => (
                         <tr key={user.id}>
+                            <td>{user.id}</td>
                             <td>{user.username}</td>
                             <td>{user.password}</td>
                             <td>{user.role}</td>
@@ -67,47 +86,11 @@ function AdminUsers() {
                 </tbody>
             </table>
             {showForm && (
-                <UserForm user={editUser} onClose={closeFormReload} />
+                <UserForm userToEdit={editUser} onClose={closeFormReload} />
             )}
         </div>
     );
 }
 
-// Prosty formularz (do rozwinięcia według potrzeb)
-function UserForm({ user, onClose }) {
-    const [form, setForm] = useState(user || { username: '', password: '', role: '' });
-
-    const handleChange = (e) => {
-        setForm({ ...form, [e.target.name]: e.target.value });
-    };
-
-    // Dodawanie/edycja użytkownika
-    const handleSave = async (e) => {
-        e.preventDefault();
-        const method = user ? 'PUT' : 'POST';
-        const url = user ? `https://localhost:7130/api/users/${user.id}` : 'https://localhost:7130/api/users';
-        await fetch(url, {
-            method,
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(form),
-        });
-        onClose();
-    };
-
-    return (
-        <form onSubmit={handleSave}>
-            <input type="text" name="username" placeholder="Login" value={form.username} onChange={handleChange} required />
-            <input type="password" name="password" placeholder="Haslo" value={form.password} onChange={handleChange} required />
-            <select name="role" value={form.role} onChange={handleChange} required>
-                <option value="">Wybierz rolę</option>
-                <option value="Admin">Admin</option>
-                <option value="Kierownik">Kierownik</option>
-                <option value="Farmaceuta">Farmaceuta</option>
-            </select>
-            <button type="submit">Zapisz</button>
-            <button type="button" onClick={onClose}>Anuluj</button>
-        </form>
-    );
-}
 
 export default AdminUsers;
